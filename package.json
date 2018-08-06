@@ -1,0 +1,25 @@
+{
+    "name": "@arted/sass-loader",
+    "version": "0.0.1",
+    "description": "Sass loader for webpack",
+    "main": "index.js",
+    "scripts": {
+        "dist": "webpack",
+        "build": "drap lib build",
+        "release": "yarn build && cd build && yarn publish"
+    },
+    "repository": "git@github.com:edonet/sass-loader.git",
+    "author": "edonet <edonet@163.com>",
+    "license": "MIT",
+    "dependencies": {
+        "@arted/utils": "^0.0.116",
+        "loader-utils": "^1.1.0",
+        "node-sass": "^4.9.2",
+        "sass-loader": "^7.1.0"
+    },
+    "devDependencies": {
+        "raw-loader": "^0.5.1",
+        "webpack": "^4.16.5",
+        "webpack-cli": "^3.1.0"
+    }
+}
