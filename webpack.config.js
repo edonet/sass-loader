@@ -23,7 +23,7 @@ module.exports = {
         rules: [
             {
                 test: /\.scss$/,
-                use: ['raw-loader', require.resolve('./lib')]
+                use: ['raw-loader', require.resolve('./lib/loader.js')]
             }
         ]
     },

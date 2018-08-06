@@ -2,7 +2,7 @@
     "name": "@arted/sass-loader",
     "version": "0.0.1",
     "description": "Sass loader for webpack",
-    "main": "index.js",
+    "main": "loader.js",
     "scripts": {
         "dist": "webpack",
         "build": "drap lib build",
