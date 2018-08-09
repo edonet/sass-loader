@@ -25,4 +25,5 @@ body {
     color: $color;
     border-color: $borderColor;
     background-color: $backgroundColor;
+    background-image: uri('./bd.svg?fill=#ccc', ( stroke: #f00 ));
 }
