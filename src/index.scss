@@ -14,6 +14,7 @@
  */
 @import "./style.scss";
 @import "~style";
+@import "./default.js?default";
 
 
 /**
@@ -25,5 +26,5 @@ body {
     color: $color;
     border-color: $borderColor;
     background-color: $backgroundColor;
-    background-image: uri('./bd.svg?fill=#ccc', ( stroke: #f00 ));
+    font-size: $fontSize;
 }
