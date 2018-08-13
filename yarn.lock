@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@arted/babel@^0.0.103":
-  version "0.0.103"
-  resolved "https://registry.yarnpkg.com/@arted/babel/-/babel-0.0.103.tgz#59e70610a1e45a5c3c4127c0f29636bcee50da8c"
+"@arted/babel@^0.0.105":
+  version "0.0.105"
+  resolved "https://registry.yarnpkg.com/@arted/babel/-/babel-0.0.105.tgz#0d7af0dcef645facf88129f898f920f3acc6b6d0"
   dependencies:
     "@arted/utils" "^0.0.116"
     babel-core "^6.26.0"
