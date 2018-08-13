@@ -23,7 +23,18 @@ module.exports = {
         rules: [
             {
                 test: /\.scss$/,
-                use: ['raw-loader', require.resolve('./lib/loader.js')]
+                use: [
+                    'raw-loader',
+                    {
+                        loader: require.resolve('./lib/loader.js'),
+                        options: {
+                            alias: {
+                                alias_style: require.resolve('./src/alias_style.js'),
+                                alias: null
+                            }
+                        }
+                    }
+                ]
             }
         ]
     },

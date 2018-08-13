@@ -26,5 +26,6 @@ describe('测试【sass-loader】', () => {
         expect(style.indexOf('border-color:#aaa')).not.toBe(-1);
         expect(style.indexOf('background-color:#efefef')).not.toBe(-1);
         expect(style.indexOf('font-size:21px')).not.toBe(-1);
+        expect(style.indexOf('line-height:2')).not.toBe(-1);
     });
 });

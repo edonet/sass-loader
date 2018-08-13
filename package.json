@@ -1,6 +1,6 @@
 {
     "name": "@arted/sass-loader",
-    "version": "0.0.102",
+    "version": "0.0.103",
     "description": "Sass loader for webpack",
     "main": "loader.js",
     "scripts": {
@@ -12,10 +12,10 @@
     "author": "edonet <edonet@163.com>",
     "license": "MIT",
     "dependencies": {
-        "@arted/babel": "^0.0.102",
+        "@arted/babel": "^0.0.103",
         "@arted/utils": "^0.0.116",
         "loader-utils": "^1.1.0",
-        "node-sass": "^4.9.2",
+        "node-sass": "^4.9.3",
         "sass-loader": "^7.1.0"
     },
     "devDependencies": {
